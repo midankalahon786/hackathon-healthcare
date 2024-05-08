@@ -1,0 +1,181 @@
+/* CSS styles for navbar */
+
+.navbar {
+    align-items: center; /* Align items vertically in the center */
+    background-color: #1b7d3c;
+    color: #fff;
+    padding: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Set flex direction to row */
+    font-family: "Poppins",sans-serif; /* Added this line */
+}
+.navbar li {
+    margin-right: 10px;
+}
+#login {
+    margin-left: auto;    
+    padding: 0.5em;
+    box-shadow: 1px 1px 2px 2px rgba(47, 44, 44, 0.831);
+    border-radius: 10px;
+    font-size: 1.2em;
+    display: flex; /* Set display to flex */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    
+}
+.button {
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+    
+}
+#logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#usericon {
+    border: 2px solid #0ebb64;
+    border-radius: 50px;
+    font-size: 1.5em;
+    padding:0.5em;
+    box-shadow: 3px 2px 2px rgba(47, 44, 44, 0.831);
+}
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+span#heart {
+    color: rgb(20, 246, 80);
+    font-size: 1.3em;
+}
+body {
+    margin: 0px;
+}
+
+/* CSS styles for personal healthcare monitoring section */
+.healthcare-section {
+    background-color: rgba(242, 242, 242, 0.8); /* Updated: Added transparency */
+    padding: 20px;
+    text-align: center;
+}
+.healthcare-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    color: #1b7d3c;
+    margin-bottom: 10px;
+}
+.healthcare-section p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.healthcare-section .icon {
+    font-size: 4em;
+    color: #1b7d3c;
+    margin-bottom: 20px;
+}
+.picture 
+{
+    margin: 5px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the text */
+}
+#pic1 
+{  
+    margin: 2em;
+    border-radius: 1.5em;
+    padding: 1em; /* Add padding to fit the content */
+    background-color: #f2f2f2bc;
+    box-shadow: 0px 2px 3px 2px grey;
+}
+#pic2 
+{
+    margin: 2em;
+    border: 2px solid #0ebb64;
+    border-radius: 1.5em;
+    padding: 1em; /* Add padding to fit the content */
+}
+#pic3
+{
+    margin: 2em;
+    background-color: #f2f2f2bc;
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 3px 2px grey;
+    padding: 1em; /* Add padding to fit the content */
+
+} 
+#pic4
+{
+    margin: 2em;
+    background-color: #f2f2f2bc;
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 3px 2px grey;
+    padding: 1em; /* Add padding to fit the content */
+
+}
+#pic4 h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    color: #1b7d3c;
+
+}
+#pic1 h3 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    color: #1b7d3c;
+}
+.picture p
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+.picture ul
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+.floating-button 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1b7d3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-family: "Poppins", sans-serif;
+}
+@media (max-width: 768px) 
+{
+.picture 
+{
+    grid-template-columns: 1fr;
+}
+}
+body {
+background: url('healthcare-stethoscope-symbols-2milkjfopmck18ii.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
